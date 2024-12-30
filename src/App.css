@@ -1,0 +1,37 @@
+.container{
+  height:100vh;
+  background-image: url('../public/images/background_image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+.container h1{
+  color: rgb(26, 83, 163);
+  background-color: rgb(247, 251, 255);
+}
+.board{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cell{
+  height:100px;
+  width:100px;
+  background-color: rgb(76, 223, 159);
+  border:1px solid black;
+}
+.cell:hover{
+  border:2px solid black;
+  cursor:pointer;
+}
+
+.cell img{
+  height:80px;
+  width:80px;
+  padding:9px;
+}
