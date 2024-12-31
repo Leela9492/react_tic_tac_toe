@@ -70,7 +70,7 @@ function App() {
         <div className="cell" onClick={()=>clickFun(9)} id="9"></div>
       </div>
       
-      <h1 id="result"></h1>
+      <p id="result"></p>
     </div>
   )
 }
